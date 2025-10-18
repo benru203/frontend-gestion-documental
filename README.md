@@ -72,10 +72,47 @@ Muestra información sobre la página actual y provee los botones para navegar.
 | Datos Mostrados | Controles |
 |-----------------|-----------|
 | Rango de ítems | Muestra el rango actual de ítems (Ej: "Mostrando 1 a 10 de 20"). |
-| Botones | "Anterior" (`&lt;`) y "Siguiente" (`&gt;`). |
+| Botones | "Anterior" (`<`) y "Siguiente" (`>`). |
 | Estado de Página | Indica la página actual y el total (Ej: "Página 1 de 2"). |
 | `onPageChange` | Llama a la función proporcionada por `App` para actualizar `currentPage`. |
 
+
+## 🚀 Instalación y Prueba
+
+Sigue estos pasos para ejecutar la aplicación en tu máquina local:
+
+### 1. Clonar el repositorio
+
+```bash
+git clone git@github.com:benru203/frontend-gestion-documental.git
+
+git clone https://github.com/benru203/frontend-gestion-documental.git
+
+cd <frontend-gestion-documental>
+```
+
+### 2. Intalar dependencias
+
+```bash
+npm install
+
+yarn install
+
+pnpm install
+
+bun install
+
+```
+### 1. Ejecutar la aplicación
+
+```bash
+npm run dev
+
+yarn dev
+
+bun  dev
+
+```
 ---
 
 ## 🛠️ Tecnologías
